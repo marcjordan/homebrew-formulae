@@ -1,9 +1,8 @@
 require 'formula'
 
 class BrewPkg < Formula
-  homepage 'https://github.com/timsutton/brew-pkg'
-  url 'https://github.com/timsutton/brew-pkg.git', :tag => 'v0.1.5'
-  version '0.1.5'
+  homepage 'https://github.com/marcjordan/brew-pkg'
+  url 'https://github.com/marcjordan/brew-pkg.git'
 
   # This is an .rb that must be executable in order for Homebrew to
   # find it with the 'which' method, so we skip_clean
